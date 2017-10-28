@@ -112,6 +112,7 @@ public class GNRDynamicNavigationBar: UIView, UIScrollViewDelegate {
             print("GNRDynamicNavigationBar error attaching navigation bar: ScrollView must have a superview")
             return
         }
+        to.delegate = self
         view.addSubview(self)
         self.snp.makeConstraints { (make) in
             make.top.equalTo(to)
@@ -127,7 +128,7 @@ public class GNRDynamicNavigationBar: UIView, UIScrollViewDelegate {
         }
         let convertedRect = targetView.convert(targetView.frame, to: scrollView)
         if(scrollView.contentOffset.y > convertedRect.minY && scrollView.contentOffset.y < convertedRect.maxY) {
-            self.stage = (scrollView.contentOffset.y - convertedRect.minY)/(convertedRect.height - self.intrinsicContentSize.height)
+            self.stage = max(0, min(1, (scrollView.contentOffset.y - convertedRect.minY)/(convertedRect.height - self.intrinsicContentSize.height)))
         }
     }
 }
