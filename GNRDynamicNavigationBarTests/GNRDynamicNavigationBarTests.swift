@@ -98,4 +98,18 @@ class GNRDynamicNavigationBarTests: XCTestCase {
         XCTAssert(invertedComponents != invertedRGBComponents)
     }
     
+    func testNavBarStages() {
+        let navBar = GNRDynamicNavigationBar()
+        XCTAssert(navBar.bkgStartColor.gnrcomponents == UIColor.white.withAlphaComponent(0).gnrcomponents)
+        XCTAssert(navBar.bkgEndColor.gnrcomponents == UIColor.white.gnrcomponents)
+        XCTAssert(navBar.backgroundColor?.gnrcomponents == UIColor.white.withAlphaComponent(0).gnrcomponents)
+        XCTAssert(navBar.stage == 0)
+        navBar.stage = -1
+        XCTAssert(navBar.backgroundColor?.gnrcomponents == UIColor.white.withAlphaComponent(0).gnrcomponents)
+        navBar.stage = 2
+        XCTAssert(navBar.backgroundColor?.gnrcomponents == UIColor.white.withAlphaComponent(0).gnrcomponents)
+        navBar.stage = 0.5
+        XCTAssert(navBar.backgroundColor?.gnrcomponents == UIColor.white.withAlphaComponent(0.5).gnrcomponents)
+    }
+    
 }

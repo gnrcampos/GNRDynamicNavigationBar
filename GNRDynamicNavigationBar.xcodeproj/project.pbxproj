@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1131A1145A6AA5600624AB05 /* Pods_GNRDynamicNavigationBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0610023973A5DBB98FD463B2 /* Pods_GNRDynamicNavigationBarTests.framework */; };
-		B57DBAE85882BDAB120923C9 /* Pods_GNRDynamicNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC7C1D51FA406AD00710D51 /* Pods_GNRDynamicNavigationBar.framework */; };
-		DCC7C1A11FA3DBFB00710D51 /* GNRDynamicNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC7C1971FA3DBFB00710D51 /* GNRDynamicNavigationBar.framework */; };
+		DC66A39B1FA484CF00F2A1D3 /* Pods_GNRDynamicNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC66A39C1FA484CF00F2A1D3 /* Pods_GNRDynamicNavigationBar.framework */; };
+		DC66A3A41FA49F8C00F2A1D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC66A3A31FA49F8C00F2A1D3 /* AppDelegate.swift */; };
+		DC66A3A61FA49F8C00F2A1D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC66A3A51FA49F8C00F2A1D3 /* ViewController.swift */; };
+		DC66A3A91FA49F8C00F2A1D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC66A3A71FA49F8C00F2A1D3 /* Main.storyboard */; };
+		DC66A3AB1FA49F8C00F2A1D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC66A3AA1FA49F8C00F2A1D3 /* Assets.xcassets */; };
+		DC66A3AE1FA49F8C00F2A1D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC66A3AC1FA49F8C00F2A1D3 /* LaunchScreen.storyboard */; };
 		DCC7C1A61FA3DBFB00710D51 /* GNRDynamicNavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7C1A51FA3DBFB00710D51 /* GNRDynamicNavigationBarTests.swift */; };
 		DCC7C1A81FA3DBFB00710D51 /* GNRDynamicNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC7C19A1FA3DBFB00710D51 /* GNRDynamicNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DCC7C1B21FA3E06100710D51 /* GNRDynamicNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7C1B11FA3E06100710D51 /* GNRDynamicNavigationBar.swift */; };
@@ -20,10 +23,16 @@
 		DCC7C1DE1FA41D3F00710D51 /* GNRDynamicNavigationBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1D91FA41D3F00710D51 /* GNRDynamicNavigationBar.podspec */; };
 		DCC7C1DF1FA41D3F00710D51 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1DA1FA41D3F00710D51 /* Podfile */; };
 		DCC7C1E01FA41D3F00710D51 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1DB1FA41D3F00710D51 /* README.md */; };
-		DE592E9809C571FE073B9F9A /* Pods_GNRDynamicNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CDDCFA7D1700B0AB80C403 /* Pods_GNRDynamicNavigationBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DC66A3B41FA49F9000F2A1D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCC7C18E1FA3DBFB00710D51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC66A3A01FA49F8C00F2A1D3;
+			remoteInfo = demo;
+		};
 		DCC7C1A21FA3DBFB00710D51 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DCC7C18E1FA3DBFB00710D51 /* Project object */;
@@ -34,41 +43,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0610023973A5DBB98FD463B2 /* Pods_GNRDynamicNavigationBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNRDynamicNavigationBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E276E108CA7AF35AB21D1AB /* Pods-GNRDynamicNavigationBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNRDynamicNavigationBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNRDynamicNavigationBarTests/Pods-GNRDynamicNavigationBarTests.release.xcconfig"; sourceTree = "<group>"; };
-		3DBE0FD909639A9EBC4B976A /* Pods-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-demo/Pods-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		49F43FFC0CE68DA5B98A4565 /* Pods-GNRDynamicNavigationBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNRDynamicNavigationBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GNRDynamicNavigationBarTests/Pods-GNRDynamicNavigationBarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		616E8A7867B2F0650B001D14 /* Pods-GNRDynamicNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNRDynamicNavigationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GNRDynamicNavigationBar/Pods-GNRDynamicNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
-		82CDDCFA7D1700B0AB80C403 /* Pods_GNRDynamicNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNRDynamicNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADC2E4DD6E4FC9CBD34F225 /* Pods-GNRDynamicNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNRDynamicNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNRDynamicNavigationBar/Pods-GNRDynamicNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
-		BB5F86F9EF8EAEAD8A77B061 /* Pods-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-demo/Pods-demo.release.xcconfig"; sourceTree = "<group>"; };
-		DCC7C1971FA3DBFB00710D51 /* GNRDynamicNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNRDynamicNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC66A39C1FA484CF00F2A1D3 /* Pods_GNRDynamicNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_GNRDynamicNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC66A3A11FA49F8C00F2A1D3 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC66A3A31FA49F8C00F2A1D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC66A3A51FA49F8C00F2A1D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC66A3A81FA49F8C00F2A1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC66A3AA1FA49F8C00F2A1D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC66A3AD1FA49F8C00F2A1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC66A3AF1FA49F8C00F2A1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC66A3B31FA49F9000F2A1D3 /* GNRDynamicNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNRDynamicNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC7C1971FA3DBFB00710D51 /* GNRDynamicNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNRDynamicNavigationBar.framework; path = "/Users/gustavosgarbicampos/Documents/GNRDynamicNavigationBar/build/Debug-iphoneos/GNRDynamicNavigationBar.framework"; sourceTree = "<absolute>"; };
 		DCC7C19A1FA3DBFB00710D51 /* GNRDynamicNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNRDynamicNavigationBar.h; sourceTree = "<group>"; };
 		DCC7C19B1FA3DBFB00710D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCC7C1A01FA3DBFB00710D51 /* GNRDynamicNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNRDynamicNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC7C1A51FA3DBFB00710D51 /* GNRDynamicNavigationBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNRDynamicNavigationBarTests.swift; sourceTree = "<group>"; };
 		DCC7C1A71FA3DBFB00710D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC7C1B11FA3E06100710D51 /* GNRDynamicNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNRDynamicNavigationBar.swift; sourceTree = "<group>"; };
 		DCC7C1B31FA3E10200710D51 /* GNRColorComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNRColorComponents.swift; sourceTree = "<group>"; };
 		DCC7C1B51FA3E92400710D51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DCC7C1D11FA4037C00710D51 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC7C1D31FA4052E00710D51 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC7C1D51FA406AD00710D51 /* Pods_GNRDynamicNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_GNRDynamicNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC7C1D71FA41D3F00710D51 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DCC7C1D81FA41D3F00710D51 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		DCC7C1D91FA41D3F00710D51 /* GNRDynamicNavigationBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNRDynamicNavigationBar.podspec; sourceTree = "<group>"; };
 		DCC7C1DA1FA41D3F00710D51 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		DCC7C1DB1FA41D3F00710D51 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		FB072158DAA474C0569A98E5 /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DC66A39E1FA49F8C00F2A1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCC7C1931FA3DBFB00710D51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE592E9809C571FE073B9F9A /* Pods_GNRDynamicNavigationBar.framework in Frameworks */,
-				B57DBAE85882BDAB120923C9 /* Pods_GNRDynamicNavigationBar.framework in Frameworks */,
+				DC66A39B1FA484CF00F2A1D3 /* Pods_GNRDynamicNavigationBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,27 +91,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCC7C1A11FA3DBFB00710D51 /* GNRDynamicNavigationBar.framework in Frameworks */,
-				1131A1145A6AA5600624AB05 /* Pods_GNRDynamicNavigationBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C989A356B31217707655DCC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DCC7C1D51FA406AD00710D51 /* Pods_GNRDynamicNavigationBar.framework */,
-				DCC7C1D31FA4052E00710D51 /* SnapKit.framework */,
-				DCC7C1D11FA4037C00710D51 /* SnapKit.framework */,
-				82CDDCFA7D1700B0AB80C403 /* Pods_GNRDynamicNavigationBar.framework */,
-				0610023973A5DBB98FD463B2 /* Pods_GNRDynamicNavigationBarTests.framework */,
-				FB072158DAA474C0569A98E5 /* Pods_demo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		AC72FFA726CE1066E1ED1961 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +104,29 @@
 				AADC2E4DD6E4FC9CBD34F225 /* Pods-GNRDynamicNavigationBar.release.xcconfig */,
 				49F43FFC0CE68DA5B98A4565 /* Pods-GNRDynamicNavigationBarTests.debug.xcconfig */,
 				2E276E108CA7AF35AB21D1AB /* Pods-GNRDynamicNavigationBarTests.release.xcconfig */,
-				3DBE0FD909639A9EBC4B976A /* Pods-demo.debug.xcconfig */,
-				BB5F86F9EF8EAEAD8A77B061 /* Pods-demo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC66A39A1FA484CF00F2A1D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC66A39C1FA484CF00F2A1D3 /* Pods_GNRDynamicNavigationBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC66A3A21FA49F8C00F2A1D3 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				DC66A3A31FA49F8C00F2A1D3 /* AppDelegate.swift */,
+				DC66A3A51FA49F8C00F2A1D3 /* ViewController.swift */,
+				DC66A3A71FA49F8C00F2A1D3 /* Main.storyboard */,
+				DC66A3AA1FA49F8C00F2A1D3 /* Assets.xcassets */,
+				DC66A3AC1FA49F8C00F2A1D3 /* LaunchScreen.storyboard */,
+				DC66A3AF1FA49F8C00F2A1D3 /* Info.plist */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 		DCC7C18D1FA3DBFB00710D51 = {
@@ -120,19 +139,12 @@
 				DCC7C1DB1FA41D3F00710D51 /* README.md */,
 				DCC7C1991FA3DBFB00710D51 /* GNRDynamicNavigationBar */,
 				DCC7C1A41FA3DBFB00710D51 /* GNRDynamicNavigationBarTests */,
-				DCC7C1981FA3DBFB00710D51 /* Products */,
 				AC72FFA726CE1066E1ED1961 /* Pods */,
-				2C989A356B31217707655DCC /* Frameworks */,
+				DC66A3A21FA49F8C00F2A1D3 /* demo */,
+				DC66A39A1FA484CF00F2A1D3 /* Frameworks */,
+				DC66A3A11FA49F8C00F2A1D3 /* demo.app */,
+				DC66A3B31FA49F9000F2A1D3 /* GNRDynamicNavigationBarTests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		DCC7C1981FA3DBFB00710D51 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DCC7C1971FA3DBFB00710D51 /* GNRDynamicNavigationBar.framework */,
-				DCC7C1A01FA3DBFB00710D51 /* GNRDynamicNavigationBarTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DCC7C1991FA3DBFB00710D51 /* GNRDynamicNavigationBar */ = {
@@ -170,6 +182,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		DC66A3A01FA49F8C00F2A1D3 /* demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC66A3B01FA49F8C00F2A1D3 /* Build configuration list for PBXNativeTarget "demo" */;
+			buildPhases = (
+				DC66A39D1FA49F8C00F2A1D3 /* Sources */,
+				DC66A39E1FA49F8C00F2A1D3 /* Frameworks */,
+				DC66A39F1FA49F8C00F2A1D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demo;
+			productName = demo;
+			productReference = DC66A3A11FA49F8C00F2A1D3 /* demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DCC7C1961FA3DBFB00710D51 /* GNRDynamicNavigationBar */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCC7C1AB1FA3DBFB00710D51 /* Build configuration list for PBXNativeTarget "GNRDynamicNavigationBar" */;
@@ -205,10 +234,11 @@
 			);
 			dependencies = (
 				DCC7C1A31FA3DBFB00710D51 /* PBXTargetDependency */,
+				DC66A3B51FA49F9000F2A1D3 /* PBXTargetDependency */,
 			);
 			name = GNRDynamicNavigationBarTests;
 			productName = GNRDynamicNavigationBarTests;
-			productReference = DCC7C1A01FA3DBFB00710D51 /* GNRDynamicNavigationBarTests.xctest */;
+			productReference = DC66A3B31FA49F9000F2A1D3 /* GNRDynamicNavigationBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -221,6 +251,10 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Gustavo Sgarbi Campos";
 				TargetAttributes = {
+					DC66A3A01FA49F8C00F2A1D3 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
 					DCC7C1961FA3DBFB00710D51 = {
 						CreatedOnToolsVersion = 9.0.1;
 						LastSwiftMigration = 0900;
@@ -229,7 +263,7 @@
 					DCC7C19F1FA3DBFB00710D51 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = DCC7C1BA1FA3EB2700710D51;
+						TestTargetID = DC66A3A01FA49F8C00F2A1D3;
 					};
 				};
 			};
@@ -242,17 +276,28 @@
 				Base,
 			);
 			mainGroup = DCC7C18D1FA3DBFB00710D51;
-			productRefGroup = DCC7C1981FA3DBFB00710D51 /* Products */;
+			productRefGroup = DCC7C18D1FA3DBFB00710D51;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DCC7C1961FA3DBFB00710D51 /* GNRDynamicNavigationBar */,
 				DCC7C19F1FA3DBFB00710D51 /* GNRDynamicNavigationBarTests */,
+				DC66A3A01FA49F8C00F2A1D3 /* demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DC66A39F1FA49F8C00F2A1D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC66A3AE1FA49F8C00F2A1D3 /* LaunchScreen.storyboard in Resources */,
+				DC66A3AB1FA49F8C00F2A1D3 /* Assets.xcassets in Resources */,
+				DC66A3A91FA49F8C00F2A1D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCC7C1951FA3DBFB00710D51 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,6 +399,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DC66A39D1FA49F8C00F2A1D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC66A3A61FA49F8C00F2A1D3 /* ViewController.swift in Sources */,
+				DC66A3A41FA49F8C00F2A1D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DCC7C1921FA3DBFB00710D51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,6 +428,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DC66A3B51FA49F9000F2A1D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC66A3A01FA49F8C00F2A1D3 /* demo */;
+			targetProxy = DC66A3B41FA49F9000F2A1D3 /* PBXContainerItemProxy */;
+		};
 		DCC7C1A31FA3DBFB00710D51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DCC7C1961FA3DBFB00710D51 /* GNRDynamicNavigationBar */;
@@ -381,7 +440,56 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		DC66A3A71FA49F8C00F2A1D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC66A3A81FA49F8C00F2A1D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC66A3AC1FA49F8C00F2A1D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC66A3AD1FA49F8C00F2A1D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		DC66A3B11FA49F8C00F2A1D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67W638VLAC;
+				INFOPLIST_FILE = demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnrcampos.GNRDynamicNavigationBar.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC66A3B21FA49F8C00F2A1D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67W638VLAC;
+				INFOPLIST_FILE = demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gnrcampos.GNRDynamicNavigationBar.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DCC7C1A91FA3DBFB00710D51 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,6 +685,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DC66A3B01FA49F8C00F2A1D3 /* Build configuration list for PBXNativeTarget "demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC66A3B11FA49F8C00F2A1D3 /* Debug */,
+				DC66A3B21FA49F8C00F2A1D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DCC7C1911FA3DBFB00710D51 /* Build configuration list for PBXProject "GNRDynamicNavigationBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
