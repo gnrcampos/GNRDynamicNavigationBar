@@ -15,6 +15,11 @@
 		DCC7C1B21FA3E06100710D51 /* GNRDynamicNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7C1B11FA3E06100710D51 /* GNRDynamicNavigationBar.swift */; };
 		DCC7C1B41FA3E10200710D51 /* GNRColorComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC7C1B31FA3E10200710D51 /* GNRColorComponents.swift */; };
 		DCC7C1B61FA3E92400710D51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1B51FA3E92400710D51 /* Assets.xcassets */; };
+		DCC7C1DC1FA41D3F00710D51 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1D71FA41D3F00710D51 /* LICENSE */; };
+		DCC7C1DD1FA41D3F00710D51 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1D81FA41D3F00710D51 /* Podfile.lock */; };
+		DCC7C1DE1FA41D3F00710D51 /* GNRDynamicNavigationBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1D91FA41D3F00710D51 /* GNRDynamicNavigationBar.podspec */; };
+		DCC7C1DF1FA41D3F00710D51 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1DA1FA41D3F00710D51 /* Podfile */; };
+		DCC7C1E01FA41D3F00710D51 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DCC7C1DB1FA41D3F00710D51 /* README.md */; };
 		DE592E9809C571FE073B9F9A /* Pods_GNRDynamicNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82CDDCFA7D1700B0AB80C403 /* Pods_GNRDynamicNavigationBar.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +54,11 @@
 		DCC7C1D11FA4037C00710D51 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC7C1D31FA4052E00710D51 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC7C1D51FA406AD00710D51 /* Pods_GNRDynamicNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_GNRDynamicNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC7C1D71FA41D3F00710D51 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DCC7C1D81FA41D3F00710D51 /* Podfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		DCC7C1D91FA41D3F00710D51 /* GNRDynamicNavigationBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GNRDynamicNavigationBar.podspec; sourceTree = "<group>"; };
+		DCC7C1DA1FA41D3F00710D51 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DCC7C1DB1FA41D3F00710D51 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FB072158DAA474C0569A98E5 /* Pods_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,6 +113,11 @@
 		DCC7C18D1FA3DBFB00710D51 = {
 			isa = PBXGroup;
 			children = (
+				DCC7C1D91FA41D3F00710D51 /* GNRDynamicNavigationBar.podspec */,
+				DCC7C1D71FA41D3F00710D51 /* LICENSE */,
+				DCC7C1DA1FA41D3F00710D51 /* Podfile */,
+				DCC7C1D81FA41D3F00710D51 /* Podfile.lock */,
+				DCC7C1DB1FA41D3F00710D51 /* README.md */,
 				DCC7C1991FA3DBFB00710D51 /* GNRDynamicNavigationBar */,
 				DCC7C1A41FA3DBFB00710D51 /* GNRDynamicNavigationBarTests */,
 				DCC7C1981FA3DBFB00710D51 /* Products */,
@@ -242,6 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC7C1E01FA41D3F00710D51 /* README.md in Resources */,
+				DCC7C1DF1FA41D3F00710D51 /* Podfile in Resources */,
+				DCC7C1DE1FA41D3F00710D51 /* GNRDynamicNavigationBar.podspec in Resources */,
+				DCC7C1DD1FA41D3F00710D51 /* Podfile.lock in Resources */,
+				DCC7C1DC1FA41D3F00710D51 /* LICENSE in Resources */,
 				DCC7C1B61FA3E92400710D51 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
