@@ -1,0 +1,6 @@
+framework module Pods_GNRDynamicNavigationBarTests {
+  umbrella header "Pods-GNRDynamicNavigationBarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
