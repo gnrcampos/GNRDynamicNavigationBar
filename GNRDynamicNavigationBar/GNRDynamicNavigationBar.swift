@@ -1,9 +1,9 @@
 //
-//  DynamicNavigationBar.swift
-//  HobSpot
+//  GNRDynamicNavigationBar.swift
+//  GNRDynamicNavigationBar
 //
-//  Created by Gustavo Sgarbi Campos on 24/5/17.
-//  Copyright © 2017 ASG. All rights reserved.
+//  Created by Gustavo Sgarbi Campos on 28/5/17.
+//  Copyright © 2017 Gustavo Sgarbi Campos. All rights reserved.
 //
 
 import Foundation

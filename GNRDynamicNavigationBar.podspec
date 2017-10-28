@@ -13,6 +13,6 @@ s.source = { :git => "https://github.com/gnrcampos/GNRDynamicNavigationBar.git",
 s.framework = "UIKit"
 s.dependency 'SnapKit', '~> 4.0.0'
 s.source_files = "GNRDynamicNavigationBar/**/*.{swift}"
-s.resources = "GNRDynamicNavigationBar/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "GNRDynamicNavigationBar/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 end
