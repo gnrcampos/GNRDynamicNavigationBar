@@ -5,7 +5,7 @@ s.ios.deployment_target = '10.0'
 s.name = "GNRDynamicNavigationBar"
 s.summary = "Dynamic navigation bar."
 s.requires_arc = true
-s.version = "0.0.0"
+s.version = "0.0.1"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Gustavo Campos" => "gustavo.sgarbi.campos@gmail.com" }
 s.homepage = "https://github.com/gnrcampos/GNRDynamicNavigationBar"
