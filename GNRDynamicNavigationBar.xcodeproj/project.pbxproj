@@ -56,7 +56,7 @@
 		DC66A3AD1FA49F8C00F2A1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC66A3AF1FA49F8C00F2A1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC66A3B31FA49F9000F2A1D3 /* GNRDynamicNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNRDynamicNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCC7C1971FA3DBFB00710D51 /* GNRDynamicNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GNRDynamicNavigationBar.framework; path = "/Users/gustavosgarbicampos/Documents/GNRDynamicNavigationBar/build/Debug-iphoneos/GNRDynamicNavigationBar.framework"; sourceTree = "<absolute>"; };
+		DCA084AA1FA5DD7E00754D4A /* GNRDynamicNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GNRDynamicNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC7C19A1FA3DBFB00710D51 /* GNRDynamicNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNRDynamicNavigationBar.h; sourceTree = "<group>"; };
 		DCC7C19B1FA3DBFB00710D51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCC7C1A51FA3DBFB00710D51 /* GNRDynamicNavigationBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNRDynamicNavigationBarTests.swift; sourceTree = "<group>"; };
@@ -144,6 +144,7 @@
 				DC66A39A1FA484CF00F2A1D3 /* Frameworks */,
 				DC66A3A11FA49F8C00F2A1D3 /* demo.app */,
 				DC66A3B31FA49F9000F2A1D3 /* GNRDynamicNavigationBarTests.xctest */,
+				DCA084AA1FA5DD7E00754D4A /* GNRDynamicNavigationBar.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -216,7 +217,7 @@
 			);
 			name = GNRDynamicNavigationBar;
 			productName = GNRDynamicNavigationBar;
-			productReference = DCC7C1971FA3DBFB00710D51 /* GNRDynamicNavigationBar.framework */;
+			productReference = DCA084AA1FA5DD7E00754D4A /* GNRDynamicNavigationBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DCC7C19F1FA3DBFB00710D51 /* GNRDynamicNavigationBarTests */ = {

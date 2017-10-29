@@ -86,7 +86,7 @@ public class GNRDynamicNavigationBar: UIView, UIScrollViewDelegate {
         let btnSize = CGSize(width: 40, height: 30)
         let btnMargin = 8
         self.leftBarButton.contentHorizontalAlignment = .left
-        self.leftBarButton.setImage(UIImage(named: "back_arrow", in: Bundle(for: type(of: self)), compatibleWith: nil)!.withRenderingMode(.alwaysTemplate), for: .normal)
+        self.leftBarButton.setImage(UIImage(named: "back_arrow", in: Bundle(for: type(of: self)), compatibleWith: nil)?.withRenderingMode(.alwaysTemplate), for: .normal)
         self.leftBarButton.snp.makeConstraints { (make) in
             make.left.equalTo(self).offset(btnMargin)
             make.centerY.equalTo(self)
