@@ -103,7 +103,7 @@ public class GNRDynamicNavigationBar: UIView, UIScrollViewDelegate {
     }
     
     public override var intrinsicContentSize: CGSize {
-        return CGSize(width: UIViewNoIntrinsicMetric, height: 64 - UIApplication.shared.statusBarFrame.height)
+        return CGSize(width: UIViewNoIntrinsicMetric, height: 44)
     }
     
     //MARK: Helper
